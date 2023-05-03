@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@airline/flights/api-booking": ["libs/flights/api-booking/src/index.ts"],
+      "@airline/flights/domain": ["libs/flights/domain/src/index.ts"],
+      "@airline/flights/feature-booking": [
+        "libs/flights/feature-booking/src/index.ts"
+      ],
+      "@airline/flights/ui-booking": ["libs/flights/ui-booking/src/index.ts"],
+      "@airline/flights/util-booking": [
+        "libs/flights/util-booking/src/index.ts"
+      ],
+      "@airline/shared/domain": ["libs/shared/domain/src/index.ts"],
+      "@airline/shared/ui-common": ["libs/shared/ui-common/src/index.ts"],
+      "@airline/shared/ui-design-library": [
+        "libs/shared/ui-design-library/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
