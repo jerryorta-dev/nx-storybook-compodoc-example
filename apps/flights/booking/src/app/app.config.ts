@@ -3,7 +3,7 @@ import {
   provideRouter,
   withEnabledBlockingInitialNavigation
 } from '@angular/router';
-import {appRoutes} from './app/app.routes';
+import {appRoutes} from './app.routes';
 import {importProvidersFrom} from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 export const appConfig: ApplicationConfig = {
