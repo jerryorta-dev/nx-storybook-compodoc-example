@@ -1,0 +1,30 @@
+.design-library-nx-sb-compo-butn {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.design-library-nx-sb-compo-butn--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.design-library-nx-sb-compo-butn--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.design-library-nx-sb-compo-butn--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.design-library-nx-sb-compo-butn--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.design-library-nx-sb-compo-butn--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
