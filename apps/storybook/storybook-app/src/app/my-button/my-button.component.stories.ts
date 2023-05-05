@@ -5,9 +5,9 @@ export default {
   name: 'MyButtonComponent',
   title: 'storybook/ui-design-library',
   component: MyButtonComponent,
-  parameters: {
-    componentClassName: "MyButtonComponent"
-  }
+  // parameters: {
+  //   componentClassName: "MyButtonComponent"
+  // }
 
 } as Meta<MyButtonComponent>;
 
