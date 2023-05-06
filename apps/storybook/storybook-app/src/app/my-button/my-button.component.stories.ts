@@ -3,7 +3,7 @@ import { MyButtonComponent } from './my-button.component';
 
 export default {
   name: 'MyButtonComponent',
-  title: 'storybook/ui-design-library',
+  title: 'storybook/ui-design-library/nx-sb-compo-butn',
   component: MyButtonComponent,
   // parameters: {
   //   componentClassName: "MyButtonComponent"
@@ -11,7 +11,7 @@ export default {
 
 } as Meta<MyButtonComponent>;
 
-export const myButton = {
+export const canvas = {
   render: (args: MyButtonComponent) => ({
     props: args,
   }),

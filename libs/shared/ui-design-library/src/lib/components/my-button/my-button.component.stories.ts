@@ -2,11 +2,11 @@ import { Meta } from '@storybook/angular';
 import { MyButtonComponent } from './my-button.component';
 
 export default {
-  title: 'libs/shared/ui-design-library',
+  title: 'libs/shared/ui-design-library/design-library-nx-sb-compo-butn',
   component: MyButtonComponent,
 } as Meta<MyButtonComponent>;
 
-export const myButton = {
+export const canvas = {
   render: (args: MyButtonComponent) => ({
     props: args
   }),

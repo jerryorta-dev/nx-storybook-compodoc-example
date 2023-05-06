@@ -4,7 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   // eslint-disable-next-line @angular-eslint/component-selector
-    selector: 'design-library-nx-sb-compo-butn',
+    selector: 'nx-sb-compo-butn',
     standalone: true,
     imports: [CommonModule, MatButtonModule],
     templateUrl: './my-button.component.html',
