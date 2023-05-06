@@ -96,6 +96,47 @@
       "options": {
         "buildTarget": "flights-booking:build"
       }
+    },
+    "storybook": {
+      "executor": "@storybook/angular:start-storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "apps/flights/booking/.storybook",
+        "browserTarget": "flights-booking:build",
+        "compodoc": false
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "outputDir": "dist/storybook/flights-booking",
+        "configDir": "apps/flights/booking/.storybook",
+        "browserTarget": "flights-booking:build",
+        "compodoc": false
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "flights-booking:build-storybook",
+        "staticFilePath": "dist/storybook/flights-booking"
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "flights-booking:build-storybook:ci"
+        }
+      }
     }
   }
 }
